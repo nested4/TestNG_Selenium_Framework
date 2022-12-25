@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class IframeTest {
 
 
-
+    int yaş=12;
 
     WebDriver driver;
     @BeforeMethod
