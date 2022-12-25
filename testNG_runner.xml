@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<!-- How to run all tests cases in one class without one -->
+<suite name="Krafttech Automation" verbose="10">
+    <test name="Krafttech Smoke Test">
+      <classes>
+          <class name="com.krafttechnologie.tests.day18_ExtentReports.PositiveTest">
+            <methods>
+            <exclude name="loginTest1"></exclude>
+            </methods>
+          </class>
+      </classes>
+    </test>
+</suite>
+
+
+
+
+
