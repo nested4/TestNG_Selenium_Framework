@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class IframeTest {
 
 
-
+boolean islem =true;
 
     WebDriver driver;
     @BeforeMethod
