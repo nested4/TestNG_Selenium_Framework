@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class IframeTest {
 
 
-
+   String name = "ihsan";
 
     WebDriver driver;
     @BeforeMethod
