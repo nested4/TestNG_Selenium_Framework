@@ -13,7 +13,9 @@ import java.util.concurrent.TimeUnit;
 public class IframeTest {
 
 
-   String name = "ihsan";
+
+boolean islem =true;
+
 
     WebDriver driver;
     @BeforeMethod
