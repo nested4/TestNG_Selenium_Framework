@@ -17,6 +17,7 @@ public class IframeTest {
         driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
     }
     @AfterMethod
     public void tearDown() throws InterruptedException {
