@@ -12,13 +12,8 @@ import java.util.concurrent.TimeUnit;
 
 public class IframeTest {
 
-
-
     int yaş=12;
-
-
-boolean islem =true;
-
+    boolean islem =true;
 
     WebDriver driver;
     @BeforeMethod
@@ -26,7 +21,6 @@ boolean islem =true;
         driver = WebDriverFactory.getDriver("chrome");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-
     }
     @AfterMethod
     public void tearDown() throws InterruptedException {
